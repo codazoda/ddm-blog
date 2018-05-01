@@ -1,6 +1,6 @@
 # DDM Technology Blog
 
-This is a PUBLIC blog for technologists at DDM. If you can use git you can contribute to the blog via a pull request.
+This is a blog for technologists at DDM.
 
 ## Contributing
 
@@ -12,10 +12,10 @@ If you're on a Mac there is nothing to install. If you're not using a Mac, you'l
 
 Contributing to the blog is easy. Here are the steps to creating your blog post.
 
-  - Create a new post: `./hugo new posts/untitled.md`
-  - Edit the `./posts/untitled.md` file
+  - Create a new post: `./hugo new posts/my-working-title.md`
+  - Edit the file: `./posts/my-working-title.md`
 
-You can start with a better title than `untitled.md` or you can rename your post to something like `my-post-title.md` later.
+Don't worry, you can rename your post later on. Just give it a working title to start with.
 
 ### Preview Your Post
 
@@ -26,18 +26,9 @@ Once you've started writing you can preview your post locally in the browser. He
 
 ### Publish your Post
 
-When you're ready to publish your new post, create a pull request.
+When you're ready to publish your new post, just commit your changes.
 
-  - Rename your post: `mv posts/untitled.md posts/my-title.md`
-  - Create a branch: `git checkout -b my-title`
-  - Commit your changes: `git commit`
+  - Commit your changes: `git commit -m 'my-working-title'`
   - Push your changes: `git push`
-  - Create a pull request on https://github.com/deseretdigital/ddm-blog
 
-## ----------
-
-## Why
-
-### Why Public?
-
-People at DDM will be motivated to write articles if they're likely to get some traction and create some noteriety. This is good for DDM employee's and it's good for DDM.
+We'll commit directly to master for now. This reduces the number of steps you need to take to get your post published and reducing friction may help busy developers post more content.
