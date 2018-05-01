@@ -13,7 +13,7 @@ If you're on a Mac there is nothing to install. If you're not using a Mac, you'l
 Here are the steps to creating your blog post.
 
   - Create a new post: `./hugo new posts/my-working-title.md`
-  - Edit the file: `./posts/my-working-title.md`
+  - Edit the file: `open ./content/post/my-working-title.md`
 
 Don't worry, you can rename your post later on. Just give it a working title to start with.
 
