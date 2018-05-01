@@ -10,7 +10,7 @@ If you're on a Mac there is nothing to install. If you're not using a Mac, you'l
 
 ### Write a Post
 
-Contributing to the blog is easy. Here are the steps to creating your blog post.
+Here are the steps to creating your blog post.
 
   - Create a new post: `./hugo new posts/my-working-title.md`
   - Edit the file: `./posts/my-working-title.md`
