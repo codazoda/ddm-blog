@@ -1,6 +1,6 @@
 <section id="main">
   <h1 id="title">{{ .Title }}</h1>
-  <h4 id="date">{{ .Date.Format "2. January, 2006"}}</h4>
+  <h4 id="date">{{ .Date.Format "2 January, 2006" }} by {{ .Params.author }}</h4>
   <div>
         <article id="content">
            {{ .Summary }}

@@ -2,7 +2,7 @@
   <h2>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </h2>
-  <time>{{ .Date.Format "2. January, 2006"}}</time>
+  <time>{{ .Date.Format "2 January, 2006"}} by {{.Params.author}}</time>
   <article>
     <p>{{ .Summary }}</p>
   </article>
