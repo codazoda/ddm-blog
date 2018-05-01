@@ -28,6 +28,7 @@ Once you've started writing you can preview your post locally in the browser. He
 
 When you're ready to publish your new post, just commit your changes.
 
+  - Generate the site to the docs folder: `./hugo`
   - Commit your changes: `git commit -m 'my-working-title'`
   - Push your changes: `git push`
 
