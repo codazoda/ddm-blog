@@ -1,0 +1,4 @@
+baseURL = "http://ddmblog.test/"
+languageCode = "en-us"
+title = "DDM Technology"
+theme = "anybodyhome"
