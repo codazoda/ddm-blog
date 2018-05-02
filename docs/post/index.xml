@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on DDM Technology</title>
-    <link>http://ddmblog.test/post/</link>
+    <link>https://codazoda.github.io/ddm-blog/post/</link>
     <description>Recent content in Posts on DDM Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 May 2018 07:28:58 -0600</lastBuildDate>
     
-	<atom:link href="http://ddmblog.test/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codazoda.github.io/ddm-blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My New Post</title>
-      <link>http://ddmblog.test/post/untitled/</link>
+      <link>https://codazoda.github.io/ddm-blog/post/untitled/</link>
       <pubDate>Tue, 01 May 2018 07:28:58 -0600</pubDate>
       
-      <guid>http://ddmblog.test/post/untitled/</guid>
+      <guid>https://codazoda.github.io/ddm-blog/post/untitled/</guid>
       <description>This is my post. I like the post.</description>
     </item>
     
