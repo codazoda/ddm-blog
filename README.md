@@ -10,26 +10,28 @@ If you're on a Mac there is nothing to install. If you're not using a Mac, you'l
 
 ### Write a Post
 
-Here are the steps to creating your blog post.
+Here are the commands for creating your blog post.
 
 ```
 ./hugo new posts/my-working-title.md
 open ./content/post/my-working-title.md
 ```
 
-Don't worry, you can rename your post later. Just give it a working title to start with.
+You can rename your post later, just give it a working title to start with.
 
 ### Preview Your Post
 
-Once you've started writing you can preview your post locally in the browser. Here's how.
+Once you've started writing you can preview your post locally in the browser. Here's the command.
 
-`./hugo server -D`
+```
+./hugo server -D
+```
 
 View it by pointing your browser at http://localhost:1313.
 
 ### Publish your Post
 
-When you're ready to publish your new post, just commit and push your changes.
+To publish your new post, just commit and push your changes.
 
 ```
 git commit -m 'my-working-title'
