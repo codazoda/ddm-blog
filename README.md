@@ -31,13 +31,12 @@ View it by pointing your browser at http://localhost:1313.
 
 ### Publish your Post
 
-To publish your new post, just commit and push your changes.
+To publish your new post, generate the site, commit, and push your changes.
 
 ```
+./hugo
 git commit -m 'my-working-title'
 git push
 ```
-
-There is a git pre-commit hook to generate the site.
 
 We're committing directly to master for now. This reduces the number of steps to get your post published and reduces friction for developers.
