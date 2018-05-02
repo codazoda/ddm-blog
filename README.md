@@ -12,24 +12,30 @@ If you're on a Mac there is nothing to install. If you're not using a Mac, you'l
 
 Here are the steps to creating your blog post.
 
-  - Create a new post: `./hugo new posts/my-working-title.md`
-  - Edit the file: `open ./content/post/my-working-title.md`
+```
+./hugo new posts/my-working-title.md
+open ./content/post/my-working-title.md
+```
 
-Don't worry, you can rename your post later on. Just give it a working title to start with.
+Don't worry, you can rename your post later. Just give it a working title to start with.
 
 ### Preview Your Post
 
 Once you've started writing you can preview your post locally in the browser. Here's how.
 
-  - Run a preview server locally: `./hugo server -D`
-  - View it in your browser at http://localhost:1313
+`./hugo server -D`
+
+View it by pointing your browser at http://localhost:1313.
 
 ### Publish your Post
 
-When you're ready to publish your new post, just commit your changes.
+When you're ready to publish your new post, just commit and push your changes.
 
-  - Generate the site to the docs folder: `./hugo`
-  - Commit your changes: `git commit -m 'my-working-title'`
-  - Push your changes: `git push`
+```
+git commit -m 'my-working-title'
+git push
+```
 
-We'll commit directly to master for now. This reduces the number of steps you need to take to get your post published and reducing friction may help busy developers post more content.
+There is a git pre-commit hook to generate the site.
+
+We're committing directly to master for now. This reduces the number of steps to get your post published and reduces friction for developers.
