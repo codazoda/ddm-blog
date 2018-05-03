@@ -6,18 +6,18 @@
     <description>Recent content on DDM Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 07:28:58 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 07:55:25 -0600</lastBuildDate>
     
 	<atom:link href="https://codazoda.github.io/ddm-blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My New Post</title>
-      <link>https://codazoda.github.io/ddm-blog/post/untitled/</link>
-      <pubDate>Tue, 01 May 2018 07:28:58 -0600</pubDate>
+      <title>My Working Titlet</title>
+      <link>https://codazoda.github.io/ddm-blog/my-working-title/</link>
+      <pubDate>Wed, 02 May 2018 07:55:25 -0600</pubDate>
       
-      <guid>https://codazoda.github.io/ddm-blog/post/untitled/</guid>
-      <description>This is my post. I like the post.</description>
+      <guid>https://codazoda.github.io/ddm-blog/my-working-title/</guid>
+      <description>Your words go here&amp;hellip;</description>
     </item>
     
   </channel>

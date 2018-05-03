@@ -1,4 +1,4 @@
-baseURL = "https://codazoda.github.io/ddm-blog/"
+baseURL = "https://codazoda.github.io"
 languageCode = "en-us"
 title = "DDM Technology"
 theme = "anybodyhome-ddm"

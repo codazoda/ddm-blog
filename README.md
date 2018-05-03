@@ -13,11 +13,13 @@ If you're on a Mac there is nothing to install. If you're not using a Mac, you'l
 Here are the commands for creating your blog post.
 
 ```
-./hugo new posts/my-working-title.md
-open ./content/post/my-working-title.md
+./hugo new my-working-title.md
+open ./content/my-working-title.md
 ```
 
 You can rename your post later, just give it a working title to start with.
+
+If `.md` files don't open in your favorite editor, use Finder to update them or replace `open` with the command for your favorite editor such as `vi`, `subl`, `code`, etc.
 
 ### Preview Your Post
 
@@ -40,3 +42,11 @@ git push
 ```
 
 We're committing directly to master for now. This reduces the number of steps to get your post published and reduces friction for developers.
+
+## Adding Images and Media
+
+You can add media by placing it in the `static` folder. That folder is further organized into `image` and `video`. You would then reference the media like this.
+
+```
+![Example Image](/static/image/example.png)
+```
