@@ -12,19 +12,19 @@ My goal is to create a blog that's as simple as possible to contribute to and le
 
 I opted to use plain text files, using the common markdown formatting, for the main content that we'd be writing. I also looked at blogging software that could automatically turn those text files into raw HTML. Most of us have written README.md files for our git repositories and otherwise used Markdown formatted text files. I worked under the assumption that we're not all familiar with the particular blogging software I opted to use.
 
-## Static Site Generator
+### Static Site Generator
 
 The blog is a static site that can be hosted nearly anywhere. It can be hosted directly on github or on our local development machines. Having chosen markdown, I looked at several static site generators. I considered the most popular options first and then explored a couple of the less popular ones as well. The most popular options are Jekyl and Hugo. Jekyl is supported by Github directly but I opted to use Hugo for two reasons. First, I found it's syntax to be a little bit cleaner. Second, it's distributed as a single executable file with no external dependencies.
 
-## Including the Binary
+#### Including the Binary
 
 I opted to include the Hugo binary directly into the repo itself. This reduced the software requirements to get up and going to almost none. Most of the development staff here uses Mac's. With the hugo executable included in the repo the only software requirements are git and your favorite text editor. It does add a little size; it's currently 19MB. No big deal given the typical internet connections we have.
 
-## Manual Site Generation
+##### Manual Site Generation
 
 I considered implementing git hooks to generate the site automatically but decided against it. Git doesn't checkout the `.git/hooks` directory. It avoids that in order to prevent security problems with automatic code execution. There are tricks we can use to implement the hooks anyway but they introduce other requirement such as npm, composer or a script to create symlinks. Ultimately the hooks only reduce a single publishing command so I abandoned the idea.
 
-## Simple Template
+###### Simple Template
 
 I selected one of the most basic site templates offered by Hugo. I then copied the template files directly into the blog repo. Git doesn't bring in submodules automatically and there is no obvious indication that they're required when you first clone a project. Since simplicity was a major goal I opted to copy the files over.
 
