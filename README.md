@@ -45,7 +45,7 @@ We're committing directly to master for now. This reduces the number of steps to
 
 ## Adding Images and Media
 
-You can add media by placing it in the `static` folder. That folder is further organized into `image` and `video`. You would then reference the media like this.
+You can add media by placing it in the `static` folder. That folder is further organized into `image` and `video` subfolders. You would then reference the media like this.
 
 ```
 ![Example Image](/static/image/example.png)

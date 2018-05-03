@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DDM Technology</title>
-    <link>https://codazoda.github.io/ddm-blog/</link>
+    <link>https://codazoda.github.io/</link>
     <description>Recent content on DDM Technology</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 May 2018 07:55:25 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 08:16:19 -0600</lastBuildDate>
     
-	<atom:link href="https://codazoda.github.io/ddm-blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codazoda.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My Working Titlet</title>
-      <link>https://codazoda.github.io/ddm-blog/my-working-title/</link>
-      <pubDate>Wed, 02 May 2018 07:55:25 -0600</pubDate>
+      <title>The DDM Technology Blog</title>
+      <link>https://codazoda.github.io/setting-up-the-tech-blog/</link>
+      <pubDate>Wed, 02 May 2018 08:16:19 -0600</pubDate>
       
-      <guid>https://codazoda.github.io/ddm-blog/my-working-title/</guid>
-      <description>Your words go here&amp;hellip;</description>
+      <guid>https://codazoda.github.io/setting-up-the-tech-blog/</guid>
+      <description>We created this blog to learn about each other through our writings about technology. We hope it can promote cross team collaboration among developers and foster new friendships within DDM. We want to spark conversations with developers that we don&amp;rsquo;t interact with on a regular basis. The idea was born in one of two Dev Spring Camp meetings setup by the DDM scrum masters Chad, Mary, Katie, and Ben.</description>
     </item>
     
   </channel>

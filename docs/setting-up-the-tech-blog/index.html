@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <base href="https://codazoda.github.io">
+
+    <title>DDM Technology</title>
+
+    <link
+      rel="canonical"
+      href="https://codazoda.github.io/setting-up-the-tech-blog/"
+    />
+
+    <link
+      href=""
+      rel="alternate"
+      type="application/rss+xml"
+      title="DDM Technology"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js">
+    </script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/css/styles.css"
+    />
+</head>
+
+<section id="header">
+  <h1>
+    <a href="https://codazoda.github.io">DDM Technology</a>
+  </h1>
+  <h2></h2>
+</section>
+
+
+<div id="post">
+<section>
+  <h2>The DDM Technology Blog</h2>
+  <time>2 May 2018 by Joel Dare</time>
+</section>
+<section>
+  <article>
+    
+
+<p>We created this blog to learn about each other through our writings about technology. We hope it can promote cross team collaboration among developers and foster new friendships within DDM. We want to spark conversations with developers that we don&rsquo;t interact with on a regular basis. The idea was born in one of two Dev Spring Camp meetings setup by the DDM scrum masters Chad, Mary, Katie, and Ben.</p>
+
+<p>My goal is to create a blog that&rsquo;s as simple as possible to contribute to and leverages technologies that most of us already use. My hope is to reduce the complexity enough that it encourages contributions.</p>
+
+<h2 id="plain-text">Plain Text</h2>
+
+<p>I opted to use plain text files, using the common markdown formatting, for the main content that we&rsquo;d be writing. I also looked at blogging software that could automatically turn those text files into raw HTML. Most of us have written README.md files for our git repositories and otherwise used Markdown formatted text files. I worked under the assumption that we&rsquo;re not all familiar with the particular blogging software I opted to use.</p>
+
+<h2 id="static-site-generator">Static Site Generator</h2>
+
+<p>The blog is a static site that can be hosted nearly anywhere. It can be hosted directly on github or on our local development machines. Having chosen markdown, I looked at several static site generators. I considered the most popular options first and then explored a couple of the less popular ones as well. The most popular options are Jekyl and Hugo. Jekyl is supported by Github directly but I opted to use Hugo for two reasons. First, I found it&rsquo;s syntax to be a little bit cleaner. Second, it&rsquo;s distributed as a single executable file with no external dependencies.</p>
+
+<h2 id="including-the-binary">Including the Binary</h2>
+
+<p>I opted to include the Hugo binary directly into the repo itself. This reduced the software requirements to get up and going to almost none. Most of the development staff here uses Mac&rsquo;s. With the hugo executable included in the repo the only software requirements are git and your favorite text editor. It does add a little size; it&rsquo;s currently 19MB. No big deal given the typical internet connections we have.</p>
+
+<h2 id="manual-site-generation">Manual Site Generation</h2>
+
+<p>I considered implementing git hooks to generate the site automatically but decided against it. Git doesn&rsquo;t checkout the <code>.git/hooks</code> directory. It avoids that in order to prevent security problems with automatic code execution. There are tricks we can use to implement the hooks anyway but they introduce other requirement such as npm, composer or a script to create symlinks. Ultimately the hooks only reduce a single publishing command so I abandoned the idea.</p>
+
+<h2 id="simple-template">Simple Template</h2>
+
+<p>I selected one of the most basic site templates offered by Hugo. I then copied the template files directly into the blog repo. Git doesn&rsquo;t bring in submodules automatically and there is no obvious indication that they&rsquo;re required when you first clone a project. Since simplicity was a major goal I opted to copy the files over.</p>
+
+<p>Because, ideally, there will be a lot of us contributing to this blog, I needed to add author information to the individual posts. I made a few minor changes to the template and then renamed it to make it clear that it&rsquo;s not the original. A trade off is that we won&rsquo;t get template updates. I&rsquo;ve found that a lot of the existing templates are poorly maintained. Givin that it further reduces complexity and probably won&rsquo;t see a lot of updates anyway, I thought the trade off was worth it.</p>
+
+<h2 id="iterating">Iterating</h2>
+
+<p>I wrote the README.md file for this repo and then worked through it dozens of times trying to reduce writing and publishing to a couple of steps each. I&rsquo;m pretty happy with the few steps that I got it down to but I know there&rsquo;s more room for improvement and I didn&rsquo;t solicit any feedback. If lots of developers get involved and comfortable then the simplicity may become less necessary over time.</p>
+
+  </article>
+</section>
+</div>
+
