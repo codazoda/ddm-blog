@@ -2,11 +2,23 @@
 
 This is a blog for technologists at DDM.
 
+![Example Image](static/image/ddm-blog.png)
+
 ## Contributing
 
 ### Prerequesits
 
 If you're on a Mac there is nothing to install. If you're not using a Mac, you'll need to [install Hugo](https://gohugo.io/getting-started/quick-start/#step-1-install-hugo).
+
+### Preview the Blog
+
+You can preview the blog and your post locally in the browser. Here's the command.
+
+```
+./hugo server -D
+```
+
+View it by pointing your browser at http://localhost:1313.
 
 ### Write a Post
 
@@ -20,16 +32,6 @@ open ./content/my-working-title.md
 You can rename your post later, just give it a working title to start with.
 
 If `.md` files don't open in your favorite editor, use Finder to update them or replace `open` with the command for your favorite editor such as `vi`, `subl`, `code`, etc.
-
-### Preview Your Post
-
-Once you've started writing you can preview your post locally in the browser. Here's the command.
-
-```
-./hugo server -D
-```
-
-View it by pointing your browser at http://localhost:1313.
 
 ### Publish your Post
 
